@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', 'arial', sans-serif;
+}
+
+header {
+    margin: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-btn img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 20px;
+}
+
+/* PESQUISA */
+.pesquisar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pesquisar input {
+    height: 36px;
+    width: 540px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.retangulo {
+    position: relative;
+    height: 36px;
+}
+
+.pesquisar .search-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 6px;
+    z-index: 1;
+}
+
+.botao-pesquisar {
+    height: 36px;
+}
+
+/* RIGHT */
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+/* BOTÃO CRIAR */
+.criar-btn {
+    padding: 6px 14px;
+    background-color: #e5e5e5;
+    color: #333;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.criar-btn:hover {
+    background-color: #d5d5d5;
+}
+
+/* NOTIFICAÇÕES */
+.notificacoes img {
+    width: 20px;
+    cursor: pointer;
+}
+
+/* PERFIL */
+.perfil img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+iframe {
+    width: 864px;
+    height: 486px;
+}
+
+main h2 {
+    padding: 10px 0px;
+    font-size: 1.25rem;
+}
+
+.acoes-video {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 864px;
+}
+
+.chanel-perfil {
+    display: flex;
+    align-items: center;
+}
+
+.chanel-perfil img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#nome-inscritos {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 10px;
+
+}
+
+#nome-inscritos h3 {
+    font-size: 1rem;
+}
+
+#nome-inscritos p {
+    font-size: 0.75rem;
+    color: #606060;
+}
+
+.botao-inscrever {
+    display: flex;
+    background-color: #cc0000;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 159px;
+}
+
+.botao-inscrever p {
+    margin: auto;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.acoes {
+    display: flex;
+    gap: 25px;
+}
+
+.acoes img {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.video-tumb-container {
+    display: flex;
+    cursor: pointer;
+    gap: 15px;
+}
+
+
+.lista-videos img {
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.lista-videos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.info-video h4 {
+    font-size: 0.85rem;
+    display: -webkit-box;
+    /* Necessário para o line-clamp */
+    -webkit-line-clamp: 2;
+    /* Limita a 2 linhas */
+    -webkit-box-orient: vertical;
+    /* Orientação vertical */
+    overflow: hidden;
+    /* Esconde o texto que exceder */
+    text-overflow: ellipsis;
+    /* Adiciona '...' */
+}
+
+.info-video p {
+    font-size: 0.75rem;
+    color: #515151;
+    margin: 5px 0;
+}
+
+.desc-video {
+    margin-top: 10px;
+        width: 864px;
+        display: flex;
+        flex-direction: column;
+    
+}
+
+.desc-video h3 {
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+}
+
+.desc-video p {
+    font-size: 0.825rem;
+    color: #515151;
+}
